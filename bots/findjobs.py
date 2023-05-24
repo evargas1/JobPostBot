@@ -3,7 +3,6 @@ import requests
 from bs4 import BeautifulSoup
 import time
 
-
 def main():
     url = "http://www.generalasp.com/D201/onlineapp/jobpostings/Output.asp?Category=High+School+Teaching&all=cat&"
     r = requests.get(url)
@@ -36,7 +35,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
-    
-
-    

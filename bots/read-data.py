@@ -10,4 +10,3 @@ cleaning = data['record']
 first_value = list(cleaning.values())[0]
 for value, key in cleaning:
     print(value, key)
-
